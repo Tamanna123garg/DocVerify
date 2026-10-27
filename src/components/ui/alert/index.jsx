@@ -1,5 +1,3 @@
-// document-verification/frontend/src/components/ui/alert/index.jsx
-import React from 'react';
 import clsx from 'clsx';
 
 export const Alert = ({ children, className, ...props }) => {

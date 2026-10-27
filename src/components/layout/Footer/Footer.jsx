@@ -1,4 +1,3 @@
-import React from 'react';
 import { 
   Facebook, 
   Twitter, 
@@ -45,7 +44,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold text-white mb-4">Our Services</h4>
             <ul className="space-y-2">
-              <FooterLink text="Document Verification" href="#" />
+              <FooterLink text="DocVerify Verification" href="#" />
               <FooterLink text="AI Analysis" href="#" />
               <FooterLink text="Bulk Processing" href="#" />
               <FooterLink text="API Access" href="#" />

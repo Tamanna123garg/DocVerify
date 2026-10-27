@@ -6,7 +6,7 @@ export const AuthProvider = ({ children }) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
   const [user, setUser] = useState(null)
 
-  const login = async (credentials) => {
+  const login = async () => {
     // Implement login logic
     setIsAuthenticated(true)
   }
